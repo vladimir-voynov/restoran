@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(../img/background-header.png);
+    height: 800px;
+    min-width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+.header-line {
+    padding-top: 88px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+.header-logo {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    margin-right: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.menu-link:last-child {
+    margin-right: 36px;
+}
+
+.cart-link {
+    height: 51px;
+    border-right: 1px solid white;
+    padding-right: 21px;
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.cart-img {
+    height: 13px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 167px;
+    margin-right: 45px;
+}
+
+.phone-img {
+    height: 23px;
+    margin-right: 8px;
+}
+
+.number {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.phone span {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.order {
+    width: 157px;
+    height: 47px;
+    background-color: #FF7400;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 14px 18px;
+    
+}
+
+.header-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 204px;
+}
+
+.header-title-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.up-title {
+    font-family: 'Tinos', sans-serif;
+    font-size: 50px;
+    color: #FF7400;
+    font-weight: 400;
+}
+
+.header-title-block h1 {
+    font-family: 'Tinos', sans-serif;
+    font-size: 80px;
+    color: #FF7400;
+    font-weight: 400;
+    line-height: 92px;
+    margin-bottom: 12px;
+}
+
+.down-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.show-menu {
+    background-color: #FF7400;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 137px;
+    height: 47px;
+    padding: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    
+}
+
+.main-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    align-self: center;
+    position: relative;
+    top: -75px;
+}
+
+.card {
+    width: 349px;
+    height: 328px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 31px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);}
+
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 48px auto auto;
+}
+
+.card-img {
+    margin-bottom: 4px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+    font-family: 'Tinos', sans-serif;
+    font-size: 26px;
+    color: #BC9060;
+    font-weight: 400;
+}
+
+.color-text {
+    color: #2C2C2C;
+}
+
+.card p {
+    color: #656363;
+    font-family: 'Tinos', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.card:last-child {
+    margin-right: 0px;
+}
+
+.history {
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.history-desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-img {
+    width: 50%;
+    position: relative;
+}
+
+.history-desc h2 {
+    font-family: 'Tinos', sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #D67E34;
+    margin-bottom: 21px;
+}
+
+.history-desc h2 span {
+    color: #000000;
+}
+
+.history-desc p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    margin-bottom: 39px;
+    width: 80%;
+}
+
+.avards {
+    display: flex;
+    flex-direction: row;
+}
+
+.avard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.avard:last-child {
+    margin-right: 0px;
+}
+
+.header-avard {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: #BC9060;
+}
+
+.footer-avard {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.history1-img {
+    width: 233px;
+    height: 300px;
+    position: absolute;
+    top: 16px;
+    left: 67px;
+    z-index: 2;
+}
+.history2-img {
+    width: 255px;
+    height: 430px;
+    position: absolute;
+    top: -45px;
+    left: 251px;
+    z-index: 1;
+}
+.history3-img {
+    width: 254px;
+    height: 300px;
+    position: absolute;
+    top: 164px;
+    left: 337px;
+    z-index: 2;
+}
+.history4-img {
+    width: 212px;
+    height: 164px;
+    position: absolute;
+    top: 0px;
+    left: 337px;
+    z-index: 0;
+}
+
+.main-order {
+    position: relative;
+    background-image: url(../img/bg-main-order.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 357px;    
+}
+
+.content {
+    max-width: 1110px;
+    margin: 0px auto;
+    margin-top: 182px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.order-desc {
+    width: 60%;
+}
+
+.order-btn {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 151px;
+}
+
+.order-desc h2 {
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.order-desc span {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+}
+
+.main-order::after {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.85;
+}
