@@ -449,10 +449,6 @@
     position: relative;
 }
 
-.price-item-count { 
-    
-}
-
 .price-item-name::after {
     content: "----------------------";
     width: 210px;
@@ -498,7 +494,7 @@
     margin-right: 30px;
 }
 
-..board-cart-item:last-child {
+.board-cart-item:last-child {
     margin-right: 0px;
 }
 
@@ -562,3 +558,122 @@
     line-height: 33px;
     color: white;
 }
+
+.comments {
+    height: 550px;
+    background-color: #E6E5E5;
+}
+
+.content-comm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 104px 0px 139px;
+}
+
+.comment {
+    width: 85%;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.face {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+
+}
+
+.user {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.username {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.gallery-dishes {
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    height: 800px;
+    padding-top: 100px;
+}
+
+.gallery-dishes h2 {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: #D67E34;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.gallery-dishes span {
+    color: #000000;
+}
+
+.first-lane {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.second-lane {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.gallery-dishes1 {
+    width: 50%;
+    width: 540px;
+    height: 274px;
+}
+
+.gallery-dishes2 {
+    width: 25%;
+    width: 255px;
+    height: 274px;
+}
+.gallery-dishes3 {
+    width: 25%;
+    width: 255px;
+    height: 274px;
+}
+
+.gallery-item:nth-child(1n+1) {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery-item:last-child {
+    margin-right: 0px;
+}
+
+.gallery-item2:nth-child(1n+1) {
+    margin-right: 30px;
+}
+
+.gallery-item2:last-child {
+    margin-right: 0px;
+}
+
